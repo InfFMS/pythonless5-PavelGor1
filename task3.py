@@ -7,3 +7,13 @@
 # [1, 2, 3, 2, 5, 10]
 # Вывод:
 # значение:2 индексы 1 и 3
+from random import randint
+N = int(input())
+mas = [randint(0,100) for i in range(N)]
+print(mas)
+A = N//2
+for i in range(A):
+    for j in range(A,N-1):
+        if mas[i]==mas[j] and i != j:
+            print('значение',mas[i],'индекс',i ,'и',j)
+
