@@ -4,3 +4,10 @@
 # Пример: ввод N = 6
 # [20, -90, 15, -34, 10, 0]
 # Вывод: [20, 15, 10, -90, -34, 0]
+from random import randint
+n = int(input())
+mas = [randint(-100,100) for i in range(n)]
+for i in range(n-1):
+    if mas[i]>0:
+        mas = mas[:i:-1]
+print(mas)

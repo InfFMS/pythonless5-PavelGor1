@@ -11,9 +11,8 @@ from random import randint
 N = int(input())
 mas = [randint(0,5) for i in range(N)]
 print(mas)
-n =0
 for i in range(N-1):
     if mas[i]==mas[i+1]:
         print('значение',mas[i])
         print('индекс',i,'и',i+1)
-        n = i
+
