@@ -19,7 +19,7 @@ b=0
 for i in range(len(a)):
     if a[i]//100!=0 and a[i]%10==a[i]//100 and (a[i]%100)//10==a[i]//100:
         b +=1
-if b>1:
+if b==1:
     print('YES')
 else:
     print('NO')
