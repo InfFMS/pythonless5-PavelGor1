@@ -6,7 +6,11 @@
 # Пример: ввод N = 6
 # [1, 2, 3, 2, 5, 10,2]
 # Вывод:
+<<<<<<< HEAD
 # значение:2 индексы 1 и 3 и 6
+=======
+# значение:2 индексы 1 и 3
+>>>>>>> 8faa1b3e8d72c09201fa3262514ed4bfd49bc206
 from random import randint
 N = int(input())
 mas = [randint(0,100) for i in range(N)]
@@ -15,4 +19,9 @@ A = N//2
 for i in range(N):
     for j in range(i+1,N):
         if mas[i]==mas[j] and i!=j:
+<<<<<<< HEAD
             print('значение',mas[i],'индекс',i ,'и',j)
+=======
+            print('значение',mas[i],'индекс',i ,'и',j)
+
+>>>>>>> 8faa1b3e8d72c09201fa3262514ed4bfd49bc206

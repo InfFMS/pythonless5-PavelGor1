@@ -14,4 +14,8 @@ for item in my_list.copy():
         my_list.remove(item)
     elif item < 0.7*arif:
         my_list.remove(item)
+<<<<<<< HEAD
 print(my_list)
+=======
+print(my_list)
+>>>>>>> 8faa1b3e8d72c09201fa3262514ed4bfd49bc206
