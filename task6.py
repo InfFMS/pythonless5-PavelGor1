@@ -13,8 +13,4 @@ a.reverse()
 a=a[0:n//2]
 mas = mas [n//2:]
 result = mas + a
-<<<<<<< HEAD
 print(result)
-=======
-print(result)
->>>>>>> 8faa1b3e8d72c09201fa3262514ed4bfd49bc206
