@@ -14,9 +14,4 @@ print(mas)
 for i in range(N-1):
     if mas[i]==mas[i+1]:
         print('значение',mas[i])
-<<<<<<< HEAD
         print('индекс',i,'и',i+1)
-=======
-        print('индекс',i,'и',i+1)
-
->>>>>>> 8faa1b3e8d72c09201fa3262514ed4bfd49bc206
