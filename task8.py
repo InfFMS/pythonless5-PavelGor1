@@ -4,3 +4,8 @@
 # Пример: ввод N = 4
 # [12, 77, 5555, 97]
 # Вывод: [77, 5555]
+from random import randint
+n = int(input())
+mas = [randint(10,100000) for i in range(n)]
+for i in mas.copy():
+  if I 
