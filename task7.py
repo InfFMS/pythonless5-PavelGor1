@@ -6,7 +6,6 @@
 # Вывод: [20, 15, 10, -90, -34, 0]
 from random import randint
 n = int(input())
-<<<<<<< HEAD
 mas = [randint(-1,1) for i in range(n)]
 print(mas)
 mas.sort()
@@ -18,10 +17,3 @@ for i in mas.copy():
         s +=1
 mas=mas+[0]*s
 print(mas)
-=======
-mas = [randint(-100,100) for i in range(n)]
-for i in range(n-1):
-    if mas[i]>0:
-        mas = mas[:i:-1]
-print(mas)
->>>>>>> 8faa1b3e8d72c09201fa3262514ed4bfd49bc206
