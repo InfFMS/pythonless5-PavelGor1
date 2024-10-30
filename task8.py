@@ -1,11 +1,12 @@
-# Заполнить массив длины N случайными числами в диапазоне от 10 до 100000 и
-# отобрать в другой массив все числа, которые состоят из одинаковых цифр.
-# Используйте для этого логическую функцию.
-# Пример: ввод N = 4
-# [12, 77, 5555, 97]
-# Вывод: [77, 5555]
-from random import randint
-n = int(input())
-mas = [randint(10,100000) for i in range(n)]
-for i in mas.copy():
-  if I 
+from random import  randint
+N=int(input())
+my_list = [randint(0,1000) for i in range(N)]
+arif = sum(my_list)//N
+my_list.sort()
+print(my_list)
+for item in my_list.copy():
+    if item > 1.3*arif:
+        my_list.remove(item)
+    elif item < 0.7*arif:
+        my_list.remove(item)
+print(my_list)
