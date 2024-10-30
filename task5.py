@@ -11,7 +11,3 @@ for i in range(n):
     if a == mas[i]:
         s += 1
 print(s,'- кол-во совпадающих чисел')
-mas = [1,2,3,4]
-for i in range(2):
-    mas.reverse()
-print(mas) 
