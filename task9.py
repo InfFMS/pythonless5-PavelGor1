@@ -5,7 +5,7 @@
 # После удаления дублей:  [10, 20, 30, 40, 50]
 from random import randint
 n = int(input())
-mas = [randint(10,11) for i in range(n)]
+mas = [randint(0,100) for i in range(n)]
 print (str(mas))
 mas= list(set(mas))
 print (str(mas))
