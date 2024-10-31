@@ -4,6 +4,13 @@
 # Если есть, то выведете значение и индекс повторяющихся элементов
 # Если нет, то написать "Нет"
 # Пример: ввод N = 6
-# [1, 2, 3, 2, 5, 10]
-# Вывод:
-# значение:2 индексы 1 и 3
+# [1, 2, 3, 2, 5, 10,2]
+from random import randint
+N = int(input())
+mas = [randint(0,100) for i in range(N)]
+print(mas)
+A = N//2
+for i in range(N):
+    for j in range(i+1,N):
+        if mas[i]==mas[j] and i!=j:
+            print('значение',mas[i],'индекс',i ,'и',j)
